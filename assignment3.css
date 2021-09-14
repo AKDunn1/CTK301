@@ -1,0 +1,35 @@
+h1 {
+ background-color: #00ff00;
+}
+
+h1 {
+ color: #ff0000;
+}
+
+h2 {
+  color: #FFC0CB;
+}
+
+h2 {
+ background-color: #000000;
+}
+
+a:link {
+ color: #ff0000;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+.specialp {
+ color: #FFA500;
+}
+
+#specialid {
+ color: #90ee90;
+}
