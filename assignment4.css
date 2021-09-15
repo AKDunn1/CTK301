@@ -1,0 +1,77 @@
+h1 {
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+color: #FFA500;
+background-color: #00ff00;
+}
+
+h2 {
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+color: #FFA500;
+background-color: #00ff00;
+}
+
+h3 {
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+color: #FFA500;
+background-color: #00ff00;
+}
+
+h4 {
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+color: #FFA500;
+background-color: #00ff00;
+}
+
+p {
+color: #ffffff;
+}
+
+a:link {
+ color: #ff0000;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+.specialp {
+ color: #FFA500;
+}
+
+#specialid {
+ color: #90ee90;
+}
+
+.customtext1 {
+font-family: sans-serif;
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+.boxmodel {
+border: 15px solid #000000;
+padding: 20px 20px 20px 20px;
+margin: 10px 10px 10px 10px;
+}
+
+body {
+  background-image: url(image4.jpeg);
+}
