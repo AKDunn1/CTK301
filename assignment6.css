@@ -1,0 +1,104 @@
+h1 {
+font-family: helvetica;
+font-weight: normal;
+background-color: black;
+color: white;
+}
+
+h2 {
+font-family: helvetica;
+font-weight: bold;
+border-bottom: 4px solid black;
+padding-bottom: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+nav li {
+  background-color: red;
+  margin: 10px;
+  padding: 0px;
+  width: 160px;
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+  color: white;
+}
+
+nav li a:hover {
+background-color: #8B0000;
+}
+
+footer {
+  font-family: verdana;
+  font-style: italic;
+  text-align: center;
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+}
+
+a:link {
+ color: #ff0000;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+a:hover {
+ color: #0000FF;
+ text-decoration: underline;
+}
+
+.specialp {
+ font-weight: bold;
+ text-align: justify;
+ font-family: georgia;
+}
+
+.boxmodel {
+border: 6px solid #000000;
+padding: 20px 20px 20px 20px;
+margin: 10px 10px 10px 10px;
+float: left;
+}
+
+body {
+  background-image: url(a62.png);
+}
+
+#wrapper{
+  margin: 1em auto;
+  width: 960px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.borderbottom {
+  border-bottom: 1px solid #00000;
+}
+
+header {
+  grid-column: span 13;
+}
+
+nav {
+  grid-column: span 3;
+}
+
+main {
+  grid-column: span 10;
+}
+
+footer {
+  grid-column: span 12;
+}
